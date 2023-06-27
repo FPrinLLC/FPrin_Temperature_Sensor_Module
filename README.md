@@ -12,7 +12,7 @@ Temperature measurement devices are ubiquitous in engineering and other scientif
 
 ### Housing configurations:
 
-![Overview-BothConfig](https://github.com/FPrinLLC/FPrin_Temperature_Sensor_Module/assets/125088225/d5c4fe38-3ab8-4694-aa9c-7584ee46c43c)
+![Overview-BothConfig](https://github.com/FPrinLLC/FPrin_Temperature_Sensor_Module/assets/125088225/b1799005-1625-4838-b453-bde2f32d077a)
 
 The temperature sensor module has two different style of plastic housing, snap fit (left) and screw boss (right). The snap fit housing uses a plastic flexure to secure the upper and lower housing together and can be removed without any tools. The screw boss housing is assembled using 4 x thread-forming screws that securely fasten the upper and lower housing together.
 
