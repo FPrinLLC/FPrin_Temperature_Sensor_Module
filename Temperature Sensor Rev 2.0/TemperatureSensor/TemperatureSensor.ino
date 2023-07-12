@@ -9,7 +9,7 @@ BLEService BLETemperatureSensor("181A");
 BLEFloatCharacteristic Temperature("2A6E",  // standard 16-bit characteristic UUID
                                    BLERead | BLENotify); // remote clients will be able to get notifications if this characteristic changes
 
-int SENSOR_ADDRESS = 72;
+int SENSOR_ADDRESS = 0x48;
 int oldBatteryLevel = 0;  // last battery level reading from analog input
 
 float previousTemperature = 0;
