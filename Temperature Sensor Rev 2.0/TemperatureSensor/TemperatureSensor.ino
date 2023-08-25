@@ -86,21 +86,17 @@ void loop() {
     // update temperature value every second
     // while the central is connected:
     while (central.connected()) {
-      currentMillis = millis();
-      // if 1000ms have passed, check the temperature:
-      if (currentMillis - previousMillis >= 1000) {
-        previousMillis = currentMillis;
-        measuredTemperature = measureTemperature(SENSOR_ADDRESS);
-        Temperature.writeValue(measuredTemperature);
-        previousTemperature = measuredTemperature;
-        printTemperature();
-      }
+      measuredTemperature = measureTemperature(SENSOR_ADDRESS);
+      Temperature.writeValue(measuredTemperature);
+      printTemperature();
+      delay(1000);
     }
     // when the central disconnects, turn off the LED:
     digitalWrite(LED_BUILTIN, LOW);
     Serial.print("Disconnected from central: ");
     Serial.println(central.address());
   }
+  delay(1000);
 }
 
 float measureTemperature(int address) {
