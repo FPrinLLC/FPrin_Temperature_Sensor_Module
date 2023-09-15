@@ -1,7 +1,7 @@
 # FPrin Temperature Sensor Module Development
 Temperature measurement devices are ubiquitous in engineering and other scientific fields because temperature is a parameter that affects nearly all systems and is often essential to measure and control. Through recent work at FPrin involving temperature measurement and analysis we surveyed a series of temperature sensors and found that many common sensors have a surprisingly large rated accuracy specification. For example, perhaps the most used type of temperature measurement device, the thermocouple, typically has a range of ±1-2 °C. For some applications this is an acceptable level of accuracy, but often is insufficient. FPrin aims to provide a cost-effective, easy to build and program, and most importantly highly accurate temperature sensor module that allows the user to measure ambient temperature with a high degree of confidence.
 ## Temperature Sensing Module Rev. 1.0
-![Overview-ScrewBoss](https://github.com/FPrinLLC/FPrin_Temperature_Sensor_Module/assets/125088225/3f61e3ec-fa8e-4cf2-b31d-198ec816e31b)
+![Overview-ScrewBoss](https://github.com/FPrinLLC/FPrin_Temperature_Sensor_Module/assets/125088225/a75689a6-73c3-4a6b-9140-4c9f3d12c39f)
 
 ### Features:
 - AS6221 Digital Temperature Sensor with rated accuracy of ±0.09 °C
@@ -11,8 +11,7 @@ Temperature measurement devices are ubiquitous in engineering and other scientif
 - Programmable with Arduino IDE
 
 ### Housing configurations:
-
-![Overview-Both](https://github.com/FPrinLLC/FPrin_Temperature_Sensor_Module/assets/125088225/c842a2a1-060a-4de2-b421-9127980f4cd8)
+![Overview-Both](https://github.com/FPrinLLC/FPrin_Temperature_Sensor_Module/assets/125088225/508ff902-2134-4704-acd6-f7d71cc789af)
 
 The temperature sensor module has two different style of plastic housing, screw boss (left) and snap fit (right). The screw boss housing is assembled using 4 x thread-forming screws that securely fasten the upper and lower housing together. The snap fit housing uses a plastic flexure to secure the upper and lower housing together and can be removed without any tools.
 
