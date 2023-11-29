@@ -1,0 +1,119 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\lparrish\OneDrive - FPrin.com\Documents\GitHub\FPrin_Temperature_Sensor_Module\MATLAB Application\src\TemperatureSensorDataloggerv1.0.prj" location="C:\Users\lparrish\OneDrive - FPrin.com\Documents\GitHub\FPrin_Temperature_Sensor_Module\MATLAB Application\src" name="TemperatureSensorDataloggerv1.0" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>TemperatureSensorDatalogger</param.appname>
+    <param.icon>${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Liam Parrish</param.authnamewatermark>
+    <param.email>lparrish@fprin.com</param.email>
+    <param.company>FPrin LLC</param.company>
+    <param.summary>FPrin Wireless Temperature Sensor Module Datalogging Application</param.summary>
+    <param.description />
+    <param.screenshot>S:\Shared Folders\a_Project\FP05_Prop_YY_NN_Internal Projects\FP05 - Temperature Sensor Module\Photos\BLE Module\Step 2-2-2-5a.JPG</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\FPrin LLC\TemperatureSensorDatalogger\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.version />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\TemperatureSensorDataLogger.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0\for_testing" name="readme.txt" optional="true">C:\Users\lparrish\OneDrive - FPrin.com\Documents\GitHub\FPrin_Temperature_Sensor_Module\MATLAB Application\src\TemperatureSensorDataloggerv1.0\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0\for_testing" name="TemperatureSensorDatalogger.exe" optional="false">C:\Users\lparrish\OneDrive - FPrin.com\Documents\GitHub\FPrin_Temperature_Sensor_Module\MATLAB Application\src\TemperatureSensorDataloggerv1.0\for_testing\TemperatureSensorDatalogger.exe</file>
+      <file location="${PROJECT_ROOT}\TemperatureSensorDataloggerv1.0\for_testing" name="splash.png" optional="false">C:\Users\lparrish\OneDrive - FPrin.com\Documents\GitHub\FPrin_Temperature_Sensor_Module\MATLAB Application\src\TemperatureSensorDataloggerv1.0\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
