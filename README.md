@@ -21,6 +21,8 @@ We've also saved a version of the app as an executable file, this way you won't 
 
 ### Where to get started:
 To get started with the temperature sensor module, check out the documentation:
-- User Manual: Guide for building, programming, and setting up the module
-- Bill of Materials: A full list of everything you'll need to build the module
-- MATLAB Application: A simple desktop app that allows you to connect to a temperature sensor module and log data
+- [User Manual](/FPR12104-00_2_RPT_Wireless_Temperature_Sensor_Module_User_Manual.pdf) : Guide for building, programming, and setting up the module
+- [Bill of Materials](/FPR12096-00_1_BOM_Temperature_Sensor_Module.xlsx) : A full list of everything you'll need to build the module
+- [MATLAB Application](/MATLAB_Application): A simple desktop app that allows you to connect to a temperature sensor module and log data
+- [3D Print Files](/3D_Print_Files): STL and STEP Files for 3D printing the plastic housing
+- [Microcontroller Source Code](/TemperatureSensor)
