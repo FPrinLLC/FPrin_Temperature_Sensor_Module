@@ -1,5 +1,10 @@
 # FPrin Temperature Sensor Module Development
 Temperature measurement devices are ubiquitous in engineering and other scientific fields because temperature is a parameter that affects nearly all systems and is often essential to measure and control. Through recent work at FPrin involving temperature measurement and analysis we surveyed a series of temperature sensors and found that many common sensors have a surprisingly large rated accuracy specification. For example, perhaps the most used type of temperature measurement device, the thermocouple, typically has a range of ±1-2 °C. For some applications this is an acceptable level of accuracy, but often is insufficient. FPrin aims to develop a cost-effective, easy to build and program, highly accurate, and fully wireless temperature logging solution allowing for easily accessible, high confidence temperature measurement.
+
+For FPrin's previously designed wired temperature sensor module, the design files can be found here:
+
+[Wired Temperature Sensor Module Design](/z_Legacy-Designs/USB_Temperature_Sensor)
+
 ## Wireless Temperature Sensing Module
 ![Step 2-2-2-5a](https://github.com/FPrinLLC/FPrin_Temperature_Sensor_Module/assets/125088225/2417efe3-f823-4f97-89d9-5d4cc39765a2)
 
